@@ -1,13 +1,13 @@
-# CP8307-Semantic-Segmentation-Project
+# CP8307 - Semantic Segmentation Project
 This repository contains the Python code for different semantic segmentation methods. The project focused on comparing a deep learning segmentation model (U-Net) to various traditional methods. The [U-Net](https://arxiv.org/abs/1505.04597) was implemented in TensorFlow and the model was trained on the free GPU resources available from Google Colaboratory. Traditional segmentation models such as [Thresholding](https://scikit-image.org/docs/dev/auto_examples/segmentation/plot_thresholding.html), [Chan-Vese](https://ieeexplore.ieee.org/document/902291), and [Region Adjacency Graphs](https://ieeexplore.ieee.org/document/841950) were implemented and run locally.
 
-The project report can be found [here](../master/).
+The project report can be found [here]().
 
 ## U-Net Implementation
 The TensorFlow implementation of the U-Net can be found at [**CP8307_U-Net_Semantic_Segmentation.ipynb**](../master/CP8307_U-Net_Semantic_Segmentation.ipynb)
 
 ## Traditional Model Implementation
-The code for the traditional models can be found at [**CP8307_Traditional_Segmentation.py**](../master/)
+The code for the traditional models can be found at [**CP8307_Traditional_Segmentation.py**]()
 
 ## Dataset
 [**A Large Scale Fish Dataset**](https://www.kaggle.com/crowww/a-large-scale-fish-dataset) contains 9000 image-mask pairs of 9 classes of fish. An 80%/20% split was used to train and evaluate the deep learning model which left 7200 images to train on and 1800 images to evaluate. The same 1800 images used to evaluate the U-Net were used on the traditional models to ensure a fair comparison.
