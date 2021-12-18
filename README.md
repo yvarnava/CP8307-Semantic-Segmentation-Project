@@ -43,7 +43,7 @@ The code for the traditional models can be found at [**CP8307_Traditional_Segmen
 [**A Large Scale Fish Dataset**](https://www.kaggle.com/crowww/a-large-scale-fish-dataset) contains 9000 image-mask pairs of 9 classes of fish. An 80%/20% split was used to train and evaluate the deep learning model which left 7200 images to train on and 1800 images to evaluate. The same 1800 images used to evaluate the U-Net were used on the traditional models to ensure a fair comparison.
 
 ## Results
-A summary of the results are displayed below. It is evident that the deep learning model performed the best, followed by the RAG. The Intersection-over-Union (IoU) and the Dice Score were not calculated for the Chan-Vese and Thresholding models due to very poor performance.
+A summary of the results are displayed below. It is evident that the U-Net performed the best, followed by the RAG. The Intersection-over-Union (IoU) and the Dice Score were not calculated for the Chan-Vese and Thresholding models due to very poor performance.
 
 |      | **U-Net** |  **RAG** | **Chan-Vese** |  **Thresholding** |
 |:----:|:-----:|:----:|:---------:|:-------------:|
