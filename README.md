@@ -9,6 +9,7 @@ This repository contains the Python code for different semantic segmentation met
 The TensorFlow implementation of the U-Net can be found at [**CP8307_U-Net_Semantic_Segmentation.ipynb**](../master/CP8307_U-Net_Semantic_Segmentation.ipynb)
 
 **Parameter Values**
+* GPU: NVIDIA Tesla K80 12GB
 * Optimizer: Adam
 * Learning Rate: 0.001
 * Loss: Sparse Categorical Cross Entropy
