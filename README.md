@@ -1,7 +1,9 @@
 # CP8307 - Semantic Segmentation Project
 This repository contains the Python code for different semantic segmentation methods. The project focused on comparing a deep learning segmentation model to various traditional methods. The [U-Net](https://arxiv.org/abs/1505.04597) was implemented in TensorFlow and the model was trained on the free GPU resources available from Google Colaboratory. Traditional segmentation models such as [Thresholding](https://scikit-image.org/docs/dev/auto_examples/segmentation/plot_thresholding.html), [Chan-Vese](https://ieeexplore.ieee.org/document/902291), and [Region Adjacency Graphs](https://ieeexplore.ieee.org/document/841950) were implemented and run locally.
 
-The project report can be found [here]().
+[**Report**]().
+
+[**Presentation**]().
 
 ## U-Net Implementation
 The TensorFlow implementation of the U-Net can be found at [**CP8307_U-Net_Semantic_Segmentation.ipynb**](../master/CP8307_U-Net_Semantic_Segmentation.ipynb)
