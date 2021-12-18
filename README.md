@@ -17,7 +17,8 @@ Thresholding (custom): Thresholding Difference: 0.005
 
 Chan-Vese (using skimage.segmentation.chan_vese): mu: 2, lambda1: 1, lambda2: 1, tol: 1e-3, max_iter: 200, dt: 0.5, init_level_set: "checkerboard"
 
-RAG: (using skimage.segmentation.slic): compactness: 30, n_segments: 300. (using skimage.future.graph.cut_threshold): thresh: 45
+RAG: (using skimage.segmentation.slic): compactness: 30, n_segments: 300. 
+(using skimage.future.graph.cut_threshold): thresh: 45
 
 ## Dataset
 [**A Large Scale Fish Dataset**](https://www.kaggle.com/crowww/a-large-scale-fish-dataset) contains 9000 image-mask pairs of 9 classes of fish. An 80%/20% split was used to train and evaluate the deep learning model which left 7200 images to train on and 1800 images to evaluate. The same 1800 images used to evaluate the U-Net were used on the traditional models to ensure a fair comparison.
