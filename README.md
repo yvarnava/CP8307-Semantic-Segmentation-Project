@@ -8,6 +8,14 @@ This repository contains the Python code for different semantic segmentation met
 ## U-Net Implementation
 The TensorFlow implementation of the U-Net can be found at [**CP8307_U-Net_Semantic_Segmentation.ipynb**](../master/CP8307_U-Net_Semantic_Segmentation.ipynb)
 
+**Parameter Values**
+⋅⋅* Optimizer: Adam
+⋅⋅* Learning Rate:$0.001
+⋅⋅* Loss: Sparse Categorical Cross Entropy
+⋅⋅* Number of Epochs: 10
+⋅⋅* Batch Size: 64
+⋅⋅* Buffer Size: 1000
+
 ## Traditional Model Implementation
 The code for the traditional models can be found at [**CP8307_Traditional_Segmentation.py**](../master/CP8307_Traditional_Segmentation.py)
 
