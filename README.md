@@ -10,6 +10,7 @@ The TensorFlow implementation of the U-Net can be found at [**CP8307_U-Net_Seman
 
 ## Traditional Model Implementation
 The code for the traditional models can be found at [**CP8307_Traditional_Segmentation.py**]()
+
 Parameter Values (all experimentally determined and informed by theory):
 
 Thresholding (custom): Thresholding Difference: 0.005
